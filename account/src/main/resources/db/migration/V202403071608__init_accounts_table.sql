@@ -1,0 +1,5 @@
+CREATE TABLE accounts(
+    id BIGSERIAL PRIMARY KEY,
+    card_number BIGINT NOT NULL UNIQUE,
+    balance NUMERIC NOT NULL DEFAULT 0
+)
